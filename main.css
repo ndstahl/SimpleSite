@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    display: flex;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+}
+
+.background-image > img {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    z-index: 5;
+    padding: .5em;
+    font-size: 18px;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+    color: white;
+}
+
+.left > a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.logo > img {
+    width: 40%;
+    border-radius: 3em;
+    margin-left: 10%;
+    margin-top: 10%;
+    cursor: pointer;
+    
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    color: white;
+    cursor: pointer;
+    margin-right: 2%;
+}
+
+.right > button {
+    width: 7em;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+.middle-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    font-size: 80px;
+    color: white;
+    gap: 1em;
+}
+
+button {
+    width: 12em;
+    height: 3em;
+    border-radius: 2em;
+    cursor: pointer;
+}
